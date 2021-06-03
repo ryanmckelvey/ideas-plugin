@@ -5,18 +5,18 @@
     "description": "This extension will allow you to jot down ideas to a remote file",
     "version": "1.0",
 
+    "permissions": [
+        "contextMenus"
+    ],
+
     "action": {
         "default_icon": "icon.png",
         "default_popup": "popup.html"
     },
 
     "background": {
-        "service_worker": "context.js"
+        "service_worker": "serviceWorker.js"
     },
-
-    "permissions": [
-        "contextMenus"
-    ],
 
     "icons": {
         "16": "icon-bitty.png",
