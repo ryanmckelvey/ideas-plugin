@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "Idea Jotter Plugin",
+    "description": "This extension will allow you to jot down ideas to a remote file",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
